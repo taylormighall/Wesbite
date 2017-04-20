@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="validate.js"></script>
+</head>
+<head>
+<title> Feedback </title>
+</head>
+
+<body> 
+<header> Feedback </header> 
+<nav> <ul>
+  <li><a href="homepage.html">Homepage</a></li>
+  <li><a href="about_me.html">About Me</a></li>
+  <li><a href="multimedia.html">About Multimedia</a></li>
+  <li><a class="active" href="feedback.html">Feedback</a></li>
+  <li><a href="kill_bill.html">Movie #10</a></li>
+  <li><a href="mad_max.html">Movie #9</a></li>
+  <li><a href="the_witch.html">Movie #8</a></li>
+  <li><a href="borat.html">Movie #7</a></li>
+  <li><a href="the_raid_2.html">Movie #6</a></li>
+  <li><a href="hot_fuzz.html">Movie #5</a></li>
+  <li><a href="the_revenant.html">Movie #4</a></li>
+  <li><a href="interstellar.html">Movie #3</a></li>
+  <li><a href="tdk.html">Movie #2</a></li>
+  <li><a href="django_unchained.html">Movie #1</a></li>
+ </ul> </nav>
+<div>
+<form name="form" onsubmit="return validate()" method="post">
+Name:<br> <input type="text" name="name"><br>
+Email:<br> <input type="email" name="email"><br>
+How much did you enjoy my website? (1-5)<br>
+  <input type="radio" name="rating" value="1" > 1
+  <input type="radio" name="rating" value="2"> 2
+  <input type="radio" name="rating" value="3"> 3
+  <input type="radio" name="rating" value="4"> 4
+  <input type="radio" name="rating" value="5" checked > 5 <br>
+Message:<br><textarea name="message" cols="25" rows="10"></textarea> <br>
+I'd recommend this website to a friend <input type="checkbox" name="recommend"><br>
+<input type="submit" value="Send me your friendly comments"> <input type="Reset" value="Send me hate">
+</div>
+</body>
+</html>
+
+
+
+
+
